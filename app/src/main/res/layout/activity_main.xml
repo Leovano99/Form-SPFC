@@ -20,7 +20,7 @@
         style="@style/Base.TextAppearance.AppCompat.Title"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginLeft="50dp"
+        android:gravity="center_horizontal"
         android:text="Formulir Pendaftaran SPFC"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
@@ -147,7 +147,8 @@
             android:id="@+id/textViewHasil"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:text="Hasil" />
+            android:gravity="center_horizontal"
+            android:text="Hasil" />
 
     </LinearLayout>
 </ScrollView>
